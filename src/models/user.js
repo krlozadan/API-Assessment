@@ -6,13 +6,13 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         trim: true, 
-        match: /^[a-zA-Z ]{3,50}$/
+        match: /^[a-zA-Z ]{1,50}$/
     },
     last_name: {
         type: String,
         required: true,
         trim: true,
-        match: /^[a-zA-Z ]{3,50}$/ 
+        match: /^[a-zA-Z ]{1,50}$/ 
     },
     ip_address : {
         type: String,
