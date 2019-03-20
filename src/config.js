@@ -7,5 +7,6 @@ module.exports = {
     databaseURL : process.env.DB_URL,
     bodyLimit : process.env.BODY_LIMIT,
     databaseName : process.env.DB_NAME,
-    ipstackAPIKey : process.env.IPSTACK_API_KEY
+    ipstackAPIKey : process.env.IPSTACK_API_KEY,
+    ipstackURL : "http://api.ipstack.com/"
 }
