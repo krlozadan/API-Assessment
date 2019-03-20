@@ -11,7 +11,7 @@ locationRouter.get("/", async (req, res) => {
     const wrapper = new PromiseWrapper();
     const { data : location , error : errorGettingLocation } = await wrapper.async(iplocation(req.ip));
     if (errorGettingLocation != null) {
-        res.status.apply(500).json({ error : "Something went wrong, please try again later" });
+        res.status(500).json({ error : "Something went wrong, please try again later" });
     } else {
         res.status(200).json({ location });
     }
