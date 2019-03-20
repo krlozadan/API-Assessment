@@ -1,0 +1,23 @@
+{
+  "name": "api-assessment",
+  "version": "1.0.0",
+  "description": "Api Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krlozadan/api-assessment.git"
+  },
+  "keywords": [
+    "api",
+    "assessment"
+  ],
+  "author": "Carlos Adan Cortes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krlozadan/api-assessment/issues"
+  },
+  "homepage": "https://github.com/krlozadan/api-assessment#readme"
+}
