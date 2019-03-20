@@ -2,9 +2,9 @@
   "name": "api-assessment",
   "version": "1.0.0",
   "description": "Api Assessment",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/krlozadan/api-assessment/issues"
   },
-  "homepage": "https://github.com/krlozadan/api-assessment#readme"
+  "homepage": "https://github.com/krlozadan/api-assessment#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "iplocation": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
