@@ -6,5 +6,6 @@ module.exports = {
     port : process.env.PORT, 
     databaseURL : process.env.DB_URL,
     bodyLimit : process.env.BODY_LIMIT,
-    databaseName : process.env.DB_NAME
+    databaseName : process.env.DB_NAME,
+    ipstackAPIKey : process.env.IPSTACK_API_KEY
 }
